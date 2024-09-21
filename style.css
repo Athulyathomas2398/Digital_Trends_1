@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.nav1{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(49, 174, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 80px; */
+
+}
+.head1{
+    color: white;
+    margin-left: 120px;
+}
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn1{
+    padding: 5px;
+    border-radius: 30px;
+    border-color: yellow;
+    background-color: black;
+    color: yellow;
+}
+.home{
+    position: sticky;
+    width: 100%;
+    height: 300px;
+    background-color: skyblue;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+}
+.home-content{
+    color: white;
+    padding: 110px;
+    /* display: flex; */
+}
+#btn2{
+    background-color: white;
+    color: rgb(19, 106, 141);
+    border-radius: 30px;
+    border: 3px;
+    padding: 5px;
+    
+}
+.home2{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    /* background-color: rgb(236, 238, 238); */
+    right: 100px;
+    margin-top: -220px;
+}
+
+.about{
+    width: 100%;
+    height: 500px;
+    /* background-color: blueviolet; */
+}
+.paragraph{
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 50px;
+}
+.head2{
+    color: black;
+}
+#span1{
+    color: orange;
+}
+#p1{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 35px;
+}
+#span2{
+    color: orange;
+}
+.about-image{
+    text-align: center;
+}
+
+.sli-images{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(200, 239, 252);
+    display: flex;
+    justify-content: space-between;/*  */
+    /* align-items: center;  */
+}
+#div1{
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    
+}
+#div2{
+    width: 450px;
+    height: 250px;
+    background-color: blueviolet;
+}
+.aqua-head{
+    /* padding-top: 50px; */
+    background-color:rgb(200, 239, 252);
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+.aqua-div1{
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    background-color: rgb(222, 224, 226);
+    margin-top: -80px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(60, 161, 201);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+.brand{
+    align-items: center;
+    justify-content: center;
+    /* margin: 7px; */
+    margin-left: 9px;
+    margin-top: 7px;
+    color: white;
+
+}
+.aqua-div2{
+    position: absolute;
+    width: 430px;
+    height: 50px;
+    background-color: rgb(222, 224, 226);
+    margin-top: -80px;
+    justify-content: space-around;
+    margin-left: 10px;
+    
+}
+.icon2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(60, 161, 201);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 390px;
+
+}
+.aqua-div3{
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    background-color: rgb(222, 224, 226);
+    margin-top: -80px;
+    float: right;
+    margin-left: 30px;
+}
+#haqua{
+    margin-top: -30px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#h2aqua{
+    font-size: 10px;
+    
+}
+#h4aqua{
+    color:rgb(60, 161, 201) ;
+}
+#haqua2{
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.bar-maindiv{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(200, 239, 252);
+    display: flex;
+    justify-content: center;
+}
+.bardiv{
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 10px;
+}
+.bar2{
+    background-color: yellow;
+}
+.testimonial{
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#image-testi{
+    width: 300px;
+    height: 250px;
+    /* background-color: blue; */
+    margin-left: 350px;
+}
+#content-testi{
+    width: 500px;
+    height: 250px;
+    /* background-color: blue; */
+    margin-right: 100px;
+}
+#img-testi{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+#h3testi{
+    color: rgb(94, 166, 233);
+    font-size: 13px;
+    margin-top: 30px;
+}
+#h2testi{
+    font-size: 19px;
+}
+#h4testi{
+    font-size: 12px;
+    color: orange;
+}
+#spantesti{
+    color:rgb(94, 166, 233) ;
+}
+.lastpart{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.write{
+    width: 500px;
+    height: 150px;
+    /* background-color: white; */
+    
+}
+.contact-info{
+    width: 250px;
+    height: 150px;
+    /* background-color: white; */
+    color: rgb(136, 135, 135);
+    margin-left: 100px;
+    
+}
+.our-studio{
+    width: 250px;
+    height: 150px;
+    /* background-color: white; */
+    color: rgb(136, 135, 135);
+    margin-right: 100px;
+}
+#h1last{
+    font-size: 40px;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: rgb(136, 135, 135);
+}
+#spanlast{
+    color: orange;
+}
+.last-p1{
+    margin-top: 30px;
+}
+.studio-p1{
+    margin-top: 30px;
+}
+.icon-last{
+    color: orange;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+#foot-div1{
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    color: rgb(136, 135, 135);
+}
+#foot-div2{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: rgb(136, 135, 135);
+    /* margin-left: -240px; */
+    display: flex;
+    justify-content: space-between; 
+    /* margin-left: -120px; */
+
+    
+}
+#foot-div3{
+    width: 110px;
+    height: 30px;
+    background-color: black;
+    color: rgb(136, 135, 135);
+    margin-right: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#foot-h4{
+    margin-left: 220px;
+    font-size: 12px;
+}
+#foot-h41{
+    /* margin-left: 220px; */
+    font-size: 12px;
+}
+
+
+
+
+
+
